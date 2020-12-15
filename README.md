@@ -1,1 +1,20 @@
 # MoneyFit-Task
+- **Dependencies Used:-**
+  - [Retrofit](https://github.com/square/retrofit)
+    - Retrofit is a REST Client for Java and Android. It makes it relatively easy to retrieve and upload JSON via a REST based webservice.
+  - [MpAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+    - It is powerful and easy to use library for android apps to plot the graphs.
+    - This dependency contains some graph types like bar graph, line graph, pie chart etc.
+    - We can also show some animation while plotting the graph.
+  - [Support Library](https://developer.android.com/topic/libraries/support-library/packages)
+    - Used this library to use `SwipeRefreshLayout`.
+- **Generation of json file and Hosting:-**
+  - This is the [code](https://github.com/mohitshah3111999/MoneyFit-Task/blob/main/app/src/main/java/com/example/moneyfitio/JsonGenerator.java) that I wrote to generate the json file.
+  - It generates random number for current value and investment value for each date(from 01-01-2020 to 30-01-2020) and write it to the Sample.json file.
+  - For the investment value, it picks random value between 900 to 1000 and for the current value, it chooses from 800 to 1500 randomly.
+  - To host this json file on the server, I used [JSONbin.io](https://jsonbin.io/) and the [json file](https://api.jsonbin.io/b/5fd283d381ec296ae71c5040).
+- **App Description:-**
+  - [App](https://drive.google.com/file/d/1KK74YpxT-ZXVEPoESHDc8gy_CDD6RajP/view?usp=sharing)
+  - When we start the app, it fetches data from the JSON file. We can do it by pulling down to refresh (Using swipe refresh layout) also.
+  - Now, after fetching the data, when we click on `Get Curves` button, it will show the graph containing two lines: `Current-value(Green line)` and `Invest-value(Yellow line)`.
+  - To watch one line at a time, we can **uncheck** the `checkbox` of the particular line, which we want to hide.
