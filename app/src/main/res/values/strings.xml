@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moneyfit.io</string>
+    <string name="get_curves">Get Curves</string>
+    <string name="show_invest_value_curve">Invest value curve</string>
+    <string name="show_current_value_curve">Current value curve</string>
+    <string name="hide_invest_value_curve">Invest value curve</string>
+    <string name="hide_current_value_curve">Current value curve</string>
+</resources>
