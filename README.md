@@ -15,6 +15,6 @@
   - To host this json file on the server, I used [JSONbin.io](https://jsonbin.io/) and the [json file](https://api.jsonbin.io/b/5fd283d381ec296ae71c5040).
 - **App Description:-**
   - [App](https://drive.google.com/file/d/1KK74YpxT-ZXVEPoESHDc8gy_CDD6RajP/view?usp=sharing) and [json file(drive link)](https://drive.google.com/file/d/1S8fnMoQGA6Y51TiLrB5-xSgV-ZGDTFY0/view?usp=sharing)
-  - When we start the app, it fetches data from the JSON file. We can do it by pulling down to refresh (Using swipe refresh layout) also.
+  - When we start the app, it fetches data from the JSON file. We can do it by pulling down to refresh (Using `SwipeRefreshLayout`) also.
   - Now, after fetching the data, when we click on `Get Curves` button, it will show the graph containing two lines: `Current-value(Green line)` and `Invest-value(Yellow line)`.
   - To watch one line at a time, we can **uncheck** the `checkbox` of the particular line, which we want to hide.
